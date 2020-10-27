@@ -5,7 +5,7 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local TextBox = Instance.new("TextBox")
+local TextBox = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local cframe = Instance.new("TextButton")
