@@ -60,7 +60,7 @@ label.BorderSizePixel = 0
 label.Position = UDim2.new(0.0276497807, 0, 0.179591835, 0)
 label.Size = UDim2.new(0, 473, 0, 152)
 label.Font = Enum.Font.SourceSansLight
-label.Text = "--[[\\n    Made By Project#6666\\n    Press \"Insert\" to toggle GUI\\n    Are script currently broken. Please use \"F9\" to see CFrame\\n]]"
+label.Text = "--[[\\n    Made By Project#6666\\n    Press \"Insert\" to toggle GUI\\n    Are script currently broken. Please use F9 to see CFrame\\n]]"
 label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextSize = 14.000
 label.TextXAlignment = Enum.TextXAlignment.Left
@@ -154,9 +154,6 @@ local function KWEUZM_fake_script() -- ScreenGui.LocalScript
 	
 	clear.MouseButton1Down:Connect(function()
 		print("We are currently disabled Clear button Please say (fix the script or u are gay) to Project#6666")
-		label.Text = "Press F9!"
-		wait(3)
-		label.Text = "--[[\\n    Made By Project#6666\\n    Press \"Insert\" to toggle GUI\\n    Are script currently broken. Please use \"F9\" to see CFrame\\n]]"
 	end)
 	
 	set.MouseButton1Down:Connect(function()
@@ -165,9 +162,6 @@ local function KWEUZM_fake_script() -- ScreenGui.LocalScript
 	
 	copy.MouseButton1Down:Connect(function()
 		print("We are currently disabled Copy button Please say (fix the script or u are gay) to Project#6666")
-		label.Text = "Press F9!"
-		wait(3)
-		label.Text = "--[[\\n    Made By Project#6666\\n    Press \"Insert\" to toggle GUI\\n    Are script currently broken. Please use \"F9\" to see CFrame\\n]]"
 	end)
 	
 	UIS.InputBegan:connect(function(k)
