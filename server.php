@@ -9,19 +9,19 @@ $hwidTypes = array("Syn-Fingerprint", "Exploit-Guid", "Proto-User-Identifier", "
 $database = array(
 	array(
 		"key" => "key_sentinel",
-		"hwid" => "4700A310329499CFC0BDFFEC717036D9",
+		"hwid" => "",
 	),
 	array(
 		"key" => "key_sirhurt",
-		"hwid" => "81ECAE2DD1AAADA537121E61D5C0280C"
+		"hwid" => "E7942B63279362573A8B398952745600"
 	),
 	array(
 		"key" => "key_protosmasher",
-		"hwid" => "506130F68828AC28374C4413C2C660D1F29C056238E8268663312B17BF7D0296"
+		"hwid" => ""
 	),
 	array(
 		"key" => "key_synapse",
-		"hwid" => "7a0ac74fba20e1903d358ae736298e61fce5b58c2c7924a8117153f7a2fcb03d5380d72e511d1af0ea2288bc26c1b1b5f1cf64e32c8ed79301a113ab5b528bf5"
+		"hwid" => ""
 	),
 );
 
