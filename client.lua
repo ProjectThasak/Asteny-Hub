@@ -134,6 +134,6 @@ if data.StatusCode == 200 then
 	-- // if the request did not error...
 	local response = data.Body;
 	if response == hash(key) then
-		https://raw.githubusercontent.com/ProjectThasak/Asteny-Hub/main/login.lua
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectThasak/Asteny-Hub/main/login.lua"))()
 	end
 end
