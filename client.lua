@@ -126,7 +126,7 @@ end
 
 local key = 'key_synapse'
 local data = http_request({
-	Url = ('https://example.cool/whitelistv2/server.php?key=' .. key);
+	Url = ('https://raw.githubusercontent.com/ProjectThasak/Asteny-Hub/main/server.php?key=' .. key);
 	Method = 'GET';
 })
 
@@ -134,7 +134,6 @@ if data.StatusCode == 200 then
 	-- // if the request did not error...
 	local response = data.Body;
 	if response == hash(key) then
-		-- // wow, they are authenticated!
-		print("whitelisted!")
+		https://raw.githubusercontent.com/ProjectThasak/Asteny-Hub/main/login.lua
 	end
 end
