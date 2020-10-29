@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -11,8 +6,6 @@ local Clear = Instance.new("TextButton")
 local label = Instance.new("TextLabel")
 local setcframe = Instance.new("TextButton")
 local animasyon = Instance.new("TextLabel")
-
---Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -88,14 +81,6 @@ animasyon.Text = "GUI Loading. Please wait!"
 animasyon.TextColor3 = Color3.fromRGB(255, 255, 255)
 animasyon.TextSize = 24.000
 
---[[
-    Made By Project#6666
-    Press "Insert" to toggle GUI
-    Are script currently broken. Please use "F9" to see CFrame
-]]
-
--- Scripts:
-
 local function KWEUZM_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
@@ -114,12 +99,6 @@ local function KWEUZM_fake_script() -- ScreenGui.LocalScript
 	set.Visible = true
 	clear.Visible = true
 	textlabel.Visible = true
-	
-	--[[
-	
-	size : 0, 499,0, 42
-	position : 0, 0,0.829, 0
-	]]
 	
 	animasyon.AnchorPoint = Vector2.new(0, 499,0, 245)
 	
@@ -173,14 +152,5 @@ local function KWEUZM_fake_script() -- ScreenGui.LocalScript
 			end
 		end
 	end)
-	
-	--[[
-	
-	kucuk sizeler : {0, 168},{0, 42}
-	
-	--[[
-	    Made By Project#6666
-	    Press "Insert" to toggle GUI
-	]]
 end
 coroutine.wrap(KWEUZM_fake_script)()
